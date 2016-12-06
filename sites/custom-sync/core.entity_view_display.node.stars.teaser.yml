@@ -1,0 +1,26 @@
+uuid: 53d8ea8b-97a4-4dda-82ba-223a57aa11e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.stars.body
+    - node.type.stars
+  module:
+    - text
+    - user
+id: node.stars.teaser
+targetEntityType: node
+bundle: stars
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }
