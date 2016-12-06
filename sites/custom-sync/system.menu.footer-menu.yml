@@ -1,0 +1,8 @@
+uuid: 335ceb24-46c8-448a-81f2-7f23a56000c0
+langcode: en
+status: true
+dependencies: {  }
+id: footer-menu
+label: 'Footer menu'
+description: 'Footer menu for anonymous users.'
+locked: false
