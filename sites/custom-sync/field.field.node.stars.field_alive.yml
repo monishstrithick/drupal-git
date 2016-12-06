@@ -1,0 +1,23 @@
+uuid: b350f9f3-6684-40b1-8d6f-4c484993467b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_alive
+    - node.type.stars
+id: node.stars.field_alive
+field_name: field_alive
+entity_type: node
+bundle: stars
+label: Alive
+description: 'Alive or dead?'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Alive
+  off_label: Dead
+field_type: boolean
