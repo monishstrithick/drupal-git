@@ -1,0 +1,6 @@
+name: Lorem ipsum
+type: module
+description: 'Lorem ipsum generator.'
+package: Developement
+core: 8.x
+configure: loremipsum.form
